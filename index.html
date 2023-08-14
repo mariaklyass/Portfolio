@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta
+      name="description"
+      content="Text for SEO, first thing people see when searching smth in the internet"
+    />
+    <link rel="icon" href="img/favicon-small.png" />
+    <link rel="apple-touch-icon" href="img/favicon-apple-touch-icon.png" />
+    <link rel="manifest" href="manifest.webmanifest" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/general.css" />
+    <link rel="stylesheet" href="css/queries.css" />
+
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
+
+    <script defer src="script.js"></script>
+
+    <title>Мария Клясс &mdash; Портфолио</title>
+  </head>
+
+  <body>
+    <header class="header">
+      <div></div>
+      <nav class="main-nav">
+        <ul class="main-nav-list">
+          <li>      <a class="main-nav-link" href="#" id="up">Главная</a>
+          </li>
+          <li><a class="main-nav-link" href="#about">Обо мне</a></li>
+          <li><a class="main-nav-link" href="#skills">Навыки</a></li>
+          <li><a class="main-nav-link" href="#contacts">Контакты</a></li>
+          <li>
+            <a class="main-nav-link nav-cta" href="#how">Проекты</a>
+          </li>
+        </ul>
+      </nav>
+
+      <button class="btn-mobile-nav">
+        <ion-icon class="icon-mobile-nav" name="menu-outline"></ion-icon>
+        <ion-icon class="icon-mobile-nav" name="close-outline"></ion-icon>
+      </button>
+    </header>
+
+    <main>
+      <section class="section-hero">
+        <div class="hero">
+          <div class="hero-text-box">
+            <div class="hero-text-box__wrapper">
+            <h1 class="heading-primary">
+              Мария Клясс <br />
+              Frontend Developer
+            </h1>
+            <p class="hero-description">
+              Привет, я Маша, Frontend-разработчик. Владею технологиями HTML, CSS, JavaScript, React, DOM, браузерные API; умею верстать кроссбраузерно, доступно и адаптивно.<br>
+              В свободное время я интересуюсь новыми технологиями во фронтенде и хожу в зал 🧘🏽‍♀️      
+            </p>
+          </div>
+            <a href="#contacts" class="btn btn--full margin-right-sm">Контакты</a>
+            <a href="#how" class="btn btn--outline">Мои проекты &darr;</a>
+          </div>
+        </div>
+      </section>
+
+      <section class="section-how" id="how">
+        <div class="container">
+          <span class="subheading">Недавние проекты</span>
+          <h2 class="heading-secondary">
+            Законченные проекты, собранные мной
+          </h2>
+        </div>
+
+        <!-- STEP 01 -->
+        <div class="container grid grid--2-cols grid--padding grid--center-v">
+          <div class="step-text-box">
+            <p class="step-number">01</p>
+            <h3 class="heading-tertiary">SCULPT</h3>
+            <p class="step-description">
+              Полностью отзывчивый одностраничный сайт.<br/>В процессе работы над этим сайтом я научилась использовать мобильную навигацию, плавный скролл, "липкое" меню навигации; применять гриды, флексы и абсолютное позиционирование в любых раскладках.
+            </p>
+            <a
+              href="https://mariaklyass.github.io/SCULPT-website/ target='_blank'"
+              class="btn btn--full margin-right-sm"
+              >Посмотреть демо</a
+            >
+            <a
+              href="https://github.com/mariaklyass/SCULPT-website target='_blank'"
+              class="btn btn--outline"
+              >Посмотреть код</a
+            >
+          </div>
+          <div class="step-img-box">
+            <img
+              class="step-img"
+              src="img/Project1.png"
+              alt="SCULPT project"
+            />
+          </div>
+        </div>
+        <!-- STEP 02 -->
+        <div class="container grid grid--2-cols grid--padding grid--center-v">
+          <div class="step-img-box">
+            <img
+              class="step-img"
+              src="img/Project2.png"
+              alt="Debitbox app"
+            />
+          </div>
+
+          <div class="step-text-box">
+            <p class="step-number">02</p>
+            <h3 class="heading-tertiary">
+              DEBITBOX
+            </h3>
+            <p class="step-description">
+              Для пробной сессии: логин: js, пароль: 1111<br>
+              Фейковое приложение для мобильного банкинга. Цель проекта была в том, чтобы имитируя логику банковского приложения, научиться применять разнообразные методы массивов (например, map, filter, reduce) и работать с DOM. В приложении можно залогиниться, посмотреть баланс, перевести деньги другому пользователю, запросить займ, удалить аккаунт.
+            </p>
+            <a
+              href="https://mariaklyass.github.io/DebitboxApp/ target='_blank'"
+              class="btn btn--full margin-right-sm"
+              >Посмотреть демо</a
+            >
+            <a
+              href="https://github.com/mariaklyass/DebitboxApp target='_blank'"
+              class="btn btn--outline"
+              >Посмотреть код</a
+            >
+          </div>
+        </div>
+
+        <!-- STEP 03 -->
+        <div class="container grid grid--2-cols grid--center-v">
+          <div class="step-text-box">
+            <p class="step-number">03</p>
+            <h3 class="heading-tertiary">
+              OlimHadashim
+            </h3>
+            <p class="step-description">
+              Вебсайт для визуальных заметок на карте. Исрользуя браузерные и сторонние API, была внедрена следующая функциональность: определение текущей геолокации, добавление поп-апа на карту, добавление и хранение заметки, соответствующей поп-апу, отрисовка ее на карте, удаление всех поп-апов.<br> Архитектура приложения написана по ООП с использованием ES6 классов.
+            </p>
+            <a
+              href="https://mariaklyass.github.io/OlimHadashim/ target='_blank'"
+              class="btn btn--full margin-right-sm"
+              >Посмотреть демо</a
+            >
+            <a
+              href="https://github.com/mariaklyass/OlimHadashim target='_blank'"
+              class="btn btn--outline"
+              >Посмотреть код</a
+            >
+          </div>
+          <div class="step-img-box">
+            <img
+              class="step-img"
+              src="img/Project3.png"
+              alt="IPhone app confirmation screen"
+            />
+          </div>
+
+        </div>
+      </section>
+
+      <section class="section-about" id="about">
+        <div class="about-container">
+        <div class="container center-text">
+          <span class="subheading">About</span>
+          <h2 class="heading-secondary">
+            Self-taught Frontend разработчик 🤓<br>Без ума от технической и эстетической стороны веб-разработки вот уже больше года. Прошла курсы Джонаса Шмедтманна по HTML, CSS и JavaScript, сейчас прохожу курс Колта Стила по Реакту (чтобы углубить базовое понимание).<br><br>Я обожаю учиться, получаю ни с чем не сравнимое удовольствие, когда у меня получается делать то, что до этого было сложно и непонятно. Жду обновления в CSS больше, чем новый год. <br><br>Помимо программирования увлекаюсь спортом и люблю готовить :)
+          </h2>
+        </div>
+        <img src="img/profile-photo.jpeg" alt="">
+      </div>
+
+      <div class="skills" id="skills">
+        <span class="heading-secondary">Ключевые навыки:</span>
+      
+          <div class="activities">
+            <ul class="list">
+              <li class="list-item">
+                <ion-icon class="list-icon" name="checkmark-outline"></ion-icon
+                ><span>HTML5</span>
+              </li>
+              <li class="list-item">
+                <ion-icon class="list-icon" name="checkmark-outline"></ion-icon
+                ><span>CSS3</span>
+              </li>
+              <li class="list-item">
+                <ion-icon class="list-icon" name="checkmark-outline"></ion-icon
+                ><span>JavaScript</span>
+              </li>
+              <li class="list-item">
+                <ion-icon class="list-icon" name="checkmark-outline"></ion-icon
+                ><span>React</span>
+              </li>
+              <li class="list-item">
+                <ion-icon class="list-icon" name="checkmark-outline"></ion-icon
+                ><span>Git,Github</span>
+              </li>
+              <li class="list-item">
+                <ion-icon class="list-icon" name="checkmark-outline"></ion-icon
+                ><span>Figma</span>
+              </li>
+              <li class="list-item">
+                <ion-icon class="list-icon" name="checkmark-outline"></ion-icon
+                ><span>VSCode</span>
+              </li>
+            </ul>
+            <ul class="list">
+              <li class="list-item">
+                <ion-icon class="list-icon" name="checkmark-outline"></ion-icon
+                ><span>Flexbox, CSS Grid Layout, БЭМ, Responsive Design, Graceful Degradation, Progressive Enhancement</span>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+
+
+      </section>
+      <div class="container grid" id="contacts">
+          
+        <div class="feature">
+          <ion-icon class="feature-icon" name="call-outline"></ion-icon>
+          <p class="feature-title">8-916-231-01-83</p>
+          <p class="feature-text">
+            Номер телефона
+          </p>
+        </div>
+
+          <div class="feature">
+            <ion-icon class="feature-icon" name="mail-outline"></ion-icon>
+            <p class="feature-title">klyassmaria@gmail.com</p>
+            <p class="feature-text">
+              Электронная почта
+            </p>
+          </div>
+
+          <div class="feature">
+            <ion-icon class="feature-icon" name="send-outline"></ion-icon>
+            <p class="feature-title">@mariaklyass</p>
+            <p class="feature-text">
+              Telegram
+            </p>
+          </div>
+
+          <div class="feature">
+            <ion-icon class="feature-icon" name="logo-skype"></ion-icon>
+            <p class="feature-title">klyass</p>
+            <p class="feature-text">
+              Skype 
+            </p>
+          </div>
+
+          <div class="feature">
+            <ion-icon class="feature-icon" name="call-outline"></ion-icon>
+            <p class="feature-title">054-492-1414</p>
+            <p class="feature-text">
+            WhatsApp
+            </p>
+          </div>
+        </div>
+      </section>
+
+
+    </main>
+
+    <footer class="footer">
+     
+
+          <p class="copyright">
+            &copy; <span class="year">2027</span> Designed as a personal portfolio.
+          </p>
+        
+      </div>
+    </footer>
+  </body>
+</html>
